@@ -1,0 +1,177 @@
+html, body {
+  margin: 0;
+  padding: 0;
+
+  font-size: 16px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, helvetica, sans-serif;
+
+  line-height: 1.4em;
+
+  color: white;
+  background: black;
+  letter-spacing: 0.01em;
+
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #FF06C9;
+}
+
+article {
+  font-weight: 400;
+}
+
+/* Views */
+
+.View {
+  overflow-x: hidden;
+}
+
+.View--fullscreen {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Headings */
+
+h1, .u-heading--1 {
+  font-size: 7em;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h2, .u-heading--2 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+h3, .u-heading--3 {
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 500px) {
+  h1, .u-heading--1 {
+    font-size: 5em;
+  }
+}
+
+/* Text */
+
+.u-text-align--center {
+  text-align: center;
+}
+
+.u-text--semibold {
+  font-weight: 600;
+}
+
+/* Margins */
+
+.u-margin--tb--40 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.u-margin--lr--auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Paddings */
+
+.u-padding--40 {
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.u-padding--tb--10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.u-padding--tb--20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.u-padding--b--40 {
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}
+
+/* Transformations */
+
+.u-transform-origin--bottom-center {
+  transform-origin: bottom center;
+}
+
+.u-transform-origin--emoji-palm--small {
+  transform-origin: calc(50% + 0.2em) bottom 0;
+}
+
+.u-transform-origin--emoji-palm--large {
+  transform-origin: calc(50% + 0.2em) 70% 0;
+}
+
+/* Backgrounds */
+
+.u-background--light {
+  background-color: #FBFBFB;
+}
+
+/* Colors */
+
+.u-color--dark {
+  color: black;
+}
+
+.u-color--light {
+  color: white;
+}
+
+/* Sizes */
+
+.u-width--content {
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Display */
+
+.u-display--inline-block {
+  display: inline-block;
+}
+
+/* Positions */
+
+.u-position--fixed {
+  position: fixed;
+}
+
+/* Buttons */
+
+.Button--primary {
+  padding: 20px 25px;
+
+  color: black;
+  font-size: 1em;
+  font-weight: 600;
+
+  border: none;
+  background: rgba(0, 0, 0, 0.055);
+
+  outline: none;
+  cursor: pointer;
+}
+
+.Button--primary:focus {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3) inset;
+}

@@ -1,0 +1,17 @@
+.Webcam {
+  display: flex;
+  position: absolute;
+  color: white;
+
+  bottom: 0;
+  left: 0;
+
+  z-index: 1;
+}
+
+.Webcam-preview {
+  width: 200px;
+  height: 112.5px;
+
+  transform: rotateY(180deg);
+}

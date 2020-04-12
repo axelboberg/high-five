@@ -1,0 +1,40 @@
+[data-icon] {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+[data-icon-placement="left"] {
+  background-position: left center;
+  padding-left: 1.5em;
+}
+
+[data-icon-placement="right"] {
+  background-position: right center;
+  padding-right: 1.5em;
+}
+
+div[data-icon],
+span[data-icon] {
+  position: relative;
+  display: inline-block;
+
+  width: 12px;
+  height: 12px;
+}
+
+input[data-icon] {
+  padding-left: 55px;
+  background-size: 1em;
+  background-position: 25px center;
+}
+
+[data-icon][data-icon-size="1em"] {
+  width: 1em;
+  height: 1em;
+  background-size: 1em 1em;
+}
+
+[data-icon="chrome"] {
+  background-image: url('./assets/logo-chrome.png');
+}

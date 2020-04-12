@@ -1,0 +1,8 @@
+.Scene {
+  position: absolute;
+  top: 0;
+}
+
+.Scene--hand.is-highfive {
+  background: white;
+}

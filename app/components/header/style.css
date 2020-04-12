@@ -1,0 +1,12 @@
+.Header {
+  position: absolute;
+  display: flex;
+
+  width: 100%;
+
+  padding: 40px;
+  box-sizing: border-box;
+
+  justify-content: space-between;
+  z-index: 2;
+}

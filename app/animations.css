@@ -1,0 +1,15 @@
+.u-animation--periodic-wave {
+  animation-name: periodic-wave;
+  animation-duration: 4000ms;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes periodic-wave {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(0deg); }
+  67% { transform: rotate(50deg); }
+  84% { transform: rotate(-25deg); }
+  100% { transform: rotate(0); }
+}
